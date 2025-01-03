@@ -10,3 +10,16 @@ function getComputerChoice(){
         return "Unknown";
     }
 }
+
+function getHumanChoice(){
+    let player_choice = parseInt(prompt("Choose: [1] Rock, [2] Paper, [3] Scissors. [Input Number]:"));
+    if(player_choice === 1){
+        return "Rock";
+    } else if(player_choice === 2){
+        return "Paper";
+    } else if(player_choice === 3){
+        return "Scissors";
+    } else{
+        return "Invalid Number";
+    }
+}
