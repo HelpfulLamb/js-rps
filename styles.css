@@ -2,3 +2,7 @@ body{
     background-color: azure;
     text-align: center;
 }
+
+strong{
+    padding: 15px;
+}
